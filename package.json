@@ -1,0 +1,38 @@
+{
+  "name": "btcLottery",
+  "version": "1.0.1",
+  "description": "Using btc blocks as a lottery random number seed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": {
+    "name": "Leask Wong",
+    "email": "i@leaskh.com",
+    "url": "http://leaskh.com"
+  },
+  "contributors": [
+    {
+      "name": "virushuo",
+      "email": "virushuo@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/Leask/btcLottery.git"
+  },
+  "bugs": {
+    "url": "http://github.com/Leask/btcLottery/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "homepage": "http://github.com/Leask/btcLottery#readme",
+  "dependencies": {
+    "request-promise": "^4.2.2",
+    "sha1": "^1.1.1"
+  }
+}
