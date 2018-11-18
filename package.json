@@ -1,6 +1,6 @@
 {
   "name": "btc-lottery",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Using btc blocks as a lottery random number seed.",
   "main": "index.js",
   "scripts": {

@@ -58,7 +58,10 @@ const pick = async (total) => {
     assert(total, 'Invalid total number.');
     const blk = await getLastBlock();
     assert(blk && blk.tx && blk.tx[0], 'Invalid block hash.');
-    return parseInt(sha1(blk.tx[0]).substr(0, 10), 16) % total;
+    return {
+        block  : blk,
+        result : parseInt(sha1(blk.tx[0]).substr(0, 10), 16) % total,
+    };
 };
 
 module.exports = {
